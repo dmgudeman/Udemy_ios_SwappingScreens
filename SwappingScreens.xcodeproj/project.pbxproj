@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7151F4B71F3CCDDE00FF569C /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7151F4B61F3CCDDE00FF569C /* PlaySongVC.swift */; };
 		71F8307F1F3CC550004A0E22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8307E1F3CC550004A0E22 /* AppDelegate.swift */; };
 		71F830811F3CC550004A0E22 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F830801F3CC550004A0E22 /* LoginVC.swift */; };
 		71F830841F3CC550004A0E22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F830821F3CC550004A0E22 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7151F4B61F3CCDDE00FF569C /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 		71F8307B1F3CC550004A0E22 /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F8307E1F3CC550004A0E22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71F830801F3CC550004A0E22 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				71F830871F3CC550004A0E22 /* LaunchScreen.storyboard */,
 				71F8308A1F3CC550004A0E22 /* Info.plist */,
 				71F830901F3CC777004A0E22 /* MusicListVC.swift */,
+				7151F4B61F3CCDDE00FF569C /* PlaySongVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71F830911F3CC777004A0E22 /* MusicListVC.swift in Sources */,
+				7151F4B71F3CCDDE00FF569C /* PlaySongVC.swift in Sources */,
 				71F830811F3CC550004A0E22 /* LoginVC.swift in Sources */,
 				71F8307F1F3CC550004A0E22 /* AppDelegate.swift in Sources */,
 			);
@@ -303,6 +307,7 @@
 				71F8308F1F3CC550004A0E22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -21,14 +21,23 @@ class MusicListVC: UIViewController {
   }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+  @IBAction func load3rdScreenPressed(_ sender: AnyObject) {
+    let songTitle = "Quit Playing Games With My Heart"
+    performSegue(withIdentifier: "SongVC", sender: songTitle)
+  }
+  
+  
+  
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+      if let destination = segue.destination as? PlaySongVC {
+        if let song = sender as? String {
+          destination.selectedSong = song
+        }
+        
+      }
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+  
 
 }
